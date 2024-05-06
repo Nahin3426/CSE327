@@ -1,0 +1,119 @@
+.tittle-head1 {
+  margin: 0;
+  height: 126.3px;
+  width: 834px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.tittle-head-container {
+  width: 1253px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-109xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-abhaya-libre);
+}
+.body-background {
+  height: 769px;
+  width: 1253px;
+  position: relative;
+  border-radius: var(--br-27xl);
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.upcoming-assignmet-bg {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #f9f9f9;
+  width: 858px;
+  z-index: 1;
+}
+.upcoming-assignments-text {
+  position: absolute;
+  top: 18px;
+  left: 114px;
+  line-height: 73px;
+  display: inline-block;
+  width: 806px;
+  height: 73px;
+  z-index: 2;
+}
+.assignment-title {
+  height: 109px;
+  width: 920px;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-abhaya-libre);
+}
+.body-background-parent {
+  width: 1253px;
+  height: 769px;
+  border-radius: var(--br-27xl);
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 43px var(--padding-104xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.desktop-4 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 41.3px var(--padding-xl) var(--padding-61xl) 21px;
+  box-sizing: border-box;
+  gap: 7.4px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .body-background-parent {
+    padding-left: var(--padding-42xl);
+    padding-right: var(--padding-42xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .upcoming-assignments-text {
+    font-size: var(--font-size-32xl);
+    line-height: 58px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .body-background-parent {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .upcoming-assignments-text {
+    font-size: var(--font-size-19xl);
+    line-height: 44px;
+  }
+}
