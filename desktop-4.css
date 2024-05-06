@@ -85,7 +85,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 41.3px var(--padding-xl) var(--padding-61xl) 21px;
+  padding: 41.3px var(--padding-xl) var(--padding-61xl) var(--padding-2xl);
   box-sizing: border-box;
   gap: 7.4px;
   line-height: normal;

@@ -113,7 +113,7 @@
 @media screen and (max-width: 1300px) {
   .type-bar-parent {
     flex-wrap: wrap;
-    padding-left: 122px;
+    padding-left: var(--padding-103xl);
     padding-right: var(--padding-10xl);
     box-sizing: border-box;
   }
@@ -123,15 +123,15 @@
   .grade {
     font-size: var(--font-size-32xl);
   }
+  .desktop-5,
   .type-bar-parent {
     padding-left: var(--padding-42xl);
     box-sizing: border-box;
   }
   .desktop-5 {
     gap: 38px;
-    padding-left: 62px;
+    padding-left: var(--padding-43xl);
     padding-right: 50px;
-    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
