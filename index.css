@@ -7,7 +7,7 @@
   top: 850px;
   left: 76px;
   font-size: var(--font-size-21xl);
-  font-family: var(--font-arimo);
+  font-family: var(--font-arimo-hebrew-subset);
   color: var(--color-black);
   text-align: left;
   display: inline-block;
@@ -98,7 +98,7 @@
   position: relative;
   font-size: var(--font-size-29xl);
   display: inline-block;
-  font-family: var(--font-gentium-plus);
+  font-family: var(--font-mplus-1p-bold);
   color: var(--color-white);
   text-align: left;
   flex-shrink: 0;
@@ -164,7 +164,7 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 0 23px;
+  padding: 0 var(--padding-4xl);
   box-sizing: border-box;
 }
 .login-box-parent,
@@ -193,11 +193,11 @@
   gap: 92px;
 }
 .home-button,
-.nav-bar2 {
+.nav-bar {
   position: relative;
   max-width: 100%;
 }
-.nav-bar2 {
+.nav-bar {
   height: 192px;
   width: 1440px;
   background-color: var(--color-gainsboro);
@@ -214,7 +214,7 @@
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   z-index: 1;
 }
-.nav-bar-container,
+.nav-bar-parent,
 .slogan-background1 {
   position: absolute;
   top: 0;
@@ -222,7 +222,7 @@
   width: 100%;
   height: 100%;
 }
-.nav-bar-container {
+.nav-bar-parent {
   background-color: var(--color-gainsboro);
   display: flex;
   flex-direction: row;
@@ -267,7 +267,7 @@
   box-sizing: border-box;
   max-width: 100%;
   font-size: var(--font-size-11xl);
-  font-family: var(--font-headland-one);
+  font-family: var(--font-headlandone);
 }
 .image-container {
   position: absolute;
@@ -302,10 +302,10 @@
   text-align: left;
   font-size: var(--font-size-21xl);
   color: #fffefe;
-  font-family: var(--font-headland-one);
+  font-family: var(--font-headlandone);
 }
 @media screen and (max-width: 1200px) {
-  .nav-bar-container {
+  .nav-bar-parent {
     padding-left: var(--padding-91xl);
     padding-right: var(--padding-91xl);
     box-sizing: border-box;
@@ -333,7 +333,7 @@
   }
 }
 @media screen and (max-width: 750px) {
-  .nav-bar-container {
+  .nav-bar-parent {
     padding-left: var(--padding-36xl);
     padding-right: var(--padding-36xl);
     box-sizing: border-box;
@@ -356,7 +356,7 @@
   .home-button {
     font-size: var(--font-size-10xl);
   }
-  .nav-bar-container {
+  .nav-bar-parent {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
