@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-archivo-narrow: "Archivo Narrow";
+  --font-gentium-plus: "Gentium Plus";
+  --font-headland-one: "Headland One";
+  --font-abhaya-libre: "Abhaya Libre";
+  --font-arimo: Arimo;
+
+  /* font sizes */
+  --font-size-29xl: 48px;
+  --font-size-10xl: 29px;
+  --font-size-11xl: 30px;
+  --font-size-lg: 18px;
+  --font-size-5xl: 24px;
+  --font-size-21xl: 40px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gainsboro: #d9d9d9;
+  --color-black: #000;
+  --color-lightcoral: #ec8787;
+
+  /* Paddings */
+  --padding-28xl: 47px;
+  --padding-6xs: 7px;
+  --padding-xl: 20px;
+  --padding-91xl: 110px;
+  --padding-36xl: 55px;
+
+  /* Border radiuses */
+  --br-28xl: 47px;
+}
